@@ -15,9 +15,9 @@ const Header = () => {
     return (
         <HeaderWrapper>
             <Title>Learn React</Title>
-            <HeaderWrapper/>
-            );
-            };
+        </HeaderWrapper>
+    );
+};
 
-            export default Header;
+export default Header;
 
