@@ -28,10 +28,17 @@ const Header = () => {
         }
     }
 
+    const animals = ["Dog", "Bird", "Cat", "Mouse", "Horse"];
+
     return (
         <HeaderWrapper>
             <Title>Learn React</Title>
             <Wrap className='div' onClick={handleClick}><h1>Hello</h1></Wrap>
+            <ul>
+                {animals.map(animal => (
+                    <li>{animal}</li>
+                ))}
+            </ul>
         </HeaderWrapper>
     );
 };
